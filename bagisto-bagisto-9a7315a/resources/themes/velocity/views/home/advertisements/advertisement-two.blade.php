@@ -39,11 +39,11 @@
     <div class="container-fluid advertisement-two-container">
         <div class="row">
             <a class="col-lg-9 col-md-12 no-padding">
-                <img src="{{ asset('/themes/velocity/assets/images/toster.png') }}" />
+                <img src="{{ asset('/themes/velocity/assets/images/largead.png') }}" />
             </a>
 
             <a class="col-lg-3 col-md-12 pr0">
-                <img src="{{ asset('/themes/velocity/assets/images/trimmer.png') }}" />
+                <img src="{{ asset('/themes/velocity/assets/images/smallad.png') }}" />
             </a>
         </div>
     </div>
