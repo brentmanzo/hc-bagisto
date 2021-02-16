@@ -25,7 +25,10 @@ return [
                     ], [
                         'title' => 'kgs',
                         'value' => 'kgs',
-                    ],
+                    ], [
+                        'title' => 'L',
+                        'value' => 'L',
+                    ]
                 ],
                 'channel_based' => true
             ],
