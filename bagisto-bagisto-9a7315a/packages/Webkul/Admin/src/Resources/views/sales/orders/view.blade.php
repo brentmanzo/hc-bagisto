@@ -37,11 +37,11 @@
                     </a>
                 @endif
 
-                @if ($order->canRefund())
+                <!-- @if ($order->canRefund())
                     <a href="{{ route('admin.sales.refunds.create', $order->id) }}" class="btn btn-lg btn-primary">
                         {{ __('admin::app.sales.orders.refund-btn-title') }}
                     </a>
-                @endif
+                @endif -->
 
                 @if ($order->canShip())
                     <a href="{{ route('admin.sales.shipments.create', $order->id) }}" class="btn btn-lg btn-primary">
@@ -550,7 +550,7 @@
 
                 </tab>
 
-                <tab name="{{ __('admin::app.sales.orders.refunds') }}">
+                <!-- <tab name="{{ __('admin::app.sales.orders.refunds') }}">
 
                     <div class="table" style="padding: 20px 0">
                         <table>
@@ -592,7 +592,7 @@
                         </table>
                     </div>
 
-                </tab>
+                </tab> -->
 
                 {!! view_render_event('sales.order.tabs.after', ['order' => $order]) !!}
             </tabs>

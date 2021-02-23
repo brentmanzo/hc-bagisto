@@ -21,6 +21,7 @@
                             <span class="payment-method method-label">
                                 <b>{{ $payment['method_title'] }}</b>
                             </span>
+                            
                         </div>
 
                         <div class="line-two mt-5">
@@ -35,11 +36,16 @@
                                 <p>{{ $additionalDetails['value'] }}</p>
                             </div>
                         @endif
+                        
                     </div>
 
                     {!! view_render_event('bagisto.shop.checkout.payment-method.after', ['payment' => $payment]) !!}
 
+
                 @endforeach
+                <!-- <div>
+                    <img src="{{ asset('images/QR.jpg') }}" />
+                </div> -->
 
                 <span class="control-error" v-if="errors.has('payment-form.payment[method]')">
                     @{{ errors.first('payment-form.payment[method]') }}

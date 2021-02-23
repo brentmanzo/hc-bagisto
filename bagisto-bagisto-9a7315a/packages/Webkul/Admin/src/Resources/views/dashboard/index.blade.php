@@ -143,7 +143,7 @@
                     </div>
                 </div>
 
-                <div class="right-card-container category">
+                <!-- <div class="right-card-container category">
                     <div class="card">
                         <div class="card-title">
                             {{ __('admin::app.dashboard.top-performing-categories') }}
@@ -188,11 +188,67 @@
                             @endif
                         </div>
                     </div>
+                </div> -->
+
+                @inject ('productImageHelper', 'Webkul\Product\Helpers\ProductImage')
+                
+                <div class="right-card-container category">
+                    <div class="card">
+                        <div class="card-title">
+                            {{ __('admin::app.dashboard.stock-threshold') }}
+                        </div>
+
+                        <div class="card-info {{ !count($statistics['stock_threshold']) ? 'center' : '' }}">
+                            <ul>
+
+                                @foreach ($statistics['stock_threshold'] as $item)
+
+                                    <li>
+                                        <a href="{{ route('admin.catalog.products.edit', $item->product_id) }}">
+                                            <div class="image">
+                                                <?php $productBaseImage = $productImageHelper->getProductBaseImage($item->product); ?>
+
+                                                <img class="item-image" src="{{ $productBaseImage['small_image_url'] }}" />
+                                            </div>
+
+                                            <div class="description do-not-cross-arrow">
+                                                <div class="name ellipsis">
+                                                    @if (isset($item->product->name))
+                                                        {{ $item->product->name }}
+                                                    @endif
+                                                </div>
+
+                                                <div class="info">
+                                                    {{ __('admin::app.dashboard.qty-left', ['qty' => $item->total_qty]) }}
+                                                </div>
+                                            </div>
+
+                                            <span class="icon angle-right-icon"></span>
+                                        </a>
+                                    </li>
+
+                                @endforeach
+
+                            </ul>
+
+                            @if (! count($statistics['stock_threshold']))
+
+                                <div class="no-result-found">
+
+                                    <i class="icon no-result-icon"></i>
+                                    <p>{{ __('admin::app.common.no-result-found') }}</p>
+
+                                </div>
+
+                            @endif
+                        </div>
+
+                    </div>
                 </div>
 
             </div>
 
-            @inject ('productImageHelper', 'Webkul\Product\Helpers\ProductImage')
+            
 
             <div class="sale-stock">
                 <div class="card">
@@ -246,7 +302,7 @@
                     </div>
                 </div>
 
-                <div class="card">
+                <!-- <div class="card">
                     <div class="card-title">
                         {{ __('admin::app.dashboard.customer-with-most-sales') }}
                     </div>
@@ -303,9 +359,9 @@
                         @endif
                     </div>
 
-                </div>
+                </div> -->
 
-                <div class="card">
+                <!-- <div class="card">
                     <div class="card-title">
                         {{ __('admin::app.dashboard.stock-threshold') }}
                     </div>
@@ -355,7 +411,7 @@
                         @endif
                     </div>
 
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
