@@ -30,7 +30,7 @@ return [
 
     'header' => [
         'title' => 'Account',
-        'dropdown-text' => 'Manage Cart, Orders & Wishlist',
+        'dropdown-text' => 'Manage Cart & Orders',
         'sign-in' => 'Sign In',
         'sign-up' => 'Sign Up',
         'account' => 'Account',

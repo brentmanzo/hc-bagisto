@@ -139,7 +139,7 @@
                     address: {
                         billing: {
                             address1: [''],
-
+                            country: 'PH',
                             use_for_shipping: true,
                         },
 

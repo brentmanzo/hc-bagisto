@@ -89,7 +89,7 @@
                                         </a>
                                     </li>
 
-                                    <li>
+                                    <!-- <li>
                                         <a href="{{ route('customer.address.index') }}" class="unset">
                                             <i class="icon address text-down-3"></i>
                                             <span>{{ __('velocity::app.shop.general.addresses') }}</span>
@@ -108,7 +108,7 @@
                                             <i class="icon wishlist text-down-3"></i>
                                             <span>{{ __('shop::app.header.wishlist') }}</span>
                                         </a>
-                                    </li>
+                                    </li> -->
 
                                     <li>
                                         <a href="{{ route('customer.orders.index') }}" class="unset">
@@ -117,12 +117,12 @@
                                         </a>
                                     </li>
 
-                                    <li>
+                                    <!-- <li>
                                         <a href="{{ route('customer.downloadable_products.index') }}" class="unset">
                                             <i class="icon downloadables text-down-3"></i>
                                             <span>{{ __('velocity::app.shop.general.downloadables') }}</span>
                                         </a>
-                                    </li>
+                                    </li> -->
                                 </ul>
                             @endauth
 
@@ -345,12 +345,12 @@
                         </a>
                     @endif
 
-                    <a class="wishlist-btn unset" :href="`${isCustomer ? '{{ route('customer.wishlist.index') }}' : '{{ route('velocity.product.guest-wishlist') }}'}`">
+                    <!-- <a class="wishlist-btn unset" :href="`${isCustomer ? '{{ route('customer.wishlist.index') }}' : '{{ route('velocity.product.guest-wishlist') }}'}`">
                         <div class="badge-container" v-if="wishlistCount > 0">
                             <span class="badge" v-text="wishlistCount"></span>
                         </div>
                         <i class="material-icons">favorite_border</i>
-                    </a>
+                    </a> -->
 
                     <a class="unset cursor-pointer" @click="openSearchBar">
                         <i class="material-icons">search</i>
