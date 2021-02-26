@@ -1,4 +1,4 @@
-@inject ('wishListHelper', 'Webkul\Customer\Helpers\Wishlist')
+<!-- @inject ('wishListHelper', 'Webkul\Customer\Helpers\Wishlist')
 
 {!! view_render_event('bagisto.shop.products.wishlist.before') !!}
     @auth('customer')
@@ -42,4 +42,4 @@
             remove-tooltip="{{ __('velocity::app.shop.wishlist.remove-wishlist-text') }}">
         </wishlist-component>
     @endauth
-{!! view_render_event('bagisto.shop.products.wishlist.after') !!}
+{!! view_render_event('bagisto.shop.products.wishlist.after') !!} -->
