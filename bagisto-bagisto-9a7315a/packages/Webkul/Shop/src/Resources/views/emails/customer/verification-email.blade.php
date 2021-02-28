@@ -49,6 +49,7 @@
                     @endif
                 </div>    
             </div>
+            @include('velocity::layouts.footer.footer-links.footer-middle')
 
             {{-- @if ($categories)
                 @include('shop::layouts.footer.top-brands')
