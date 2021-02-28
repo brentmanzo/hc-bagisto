@@ -37,7 +37,7 @@
                     </div>
                 </div>
 
-                @if ($product['review-count'])
+                <!-- @if ($product['review-count'])
                     <div class="star-rating mt10">
                         <span class="rango-star-fill"></span>
                         <span class="rango-star-fill"></span>
@@ -50,7 +50,7 @@
                     <div class="mt10">
                         <span class="fs14">Be the first to write a review</span>
                     </div>
-                @endif
+                @endif -->
 
                 <div class="button-row mt10 card-bottom-container">
                     <button class="btn btn-add-to-cart">

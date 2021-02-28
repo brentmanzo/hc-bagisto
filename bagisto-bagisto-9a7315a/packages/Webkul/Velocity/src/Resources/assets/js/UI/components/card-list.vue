@@ -53,7 +53,7 @@
 
                     <template v-else>
                         <div class="mt10">
-                            <span class="fs14">Be the first to write a review</span>
+                            <span class="fs14"></span>
                         </div>
                     </template>
 

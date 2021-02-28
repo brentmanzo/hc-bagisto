@@ -253,7 +253,7 @@ return [
         'write-your-review' => 'Write Your Review',
         'short-description' => 'Short Descriptions',
         'recently-viewed'   => 'Recently Viewed Products',
-        'be-first-review'   => 'Be the first to write a review',
+        'be-first-review'   => '',
     ],
 
     'shop'          => [
