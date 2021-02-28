@@ -37,21 +37,13 @@
 
         
     </div>
-    <div class="footer">
-        <div class="footer-content">
+    @section('footer')
+            {!! view_render_event('bagisto.shop.layout.footer.before') !!}
 
-            @include('shop::layouts.footer.newsletter-subscription')
-            @include('shop::layouts.footer.footer-links')
+                @include('shop::layouts.footer.index')
 
-            {{-- @if ($categories)
-                @include('shop::layouts.footer.top-brands')
-            @endif --}}
-
-            @if (core()->getConfigData('general.content.footer.footer_toggle'))
-                @include('shop::layouts.footer.copy-right')
-            @endif
-        </div>
-    </div>
+            {!! view_render_event('bagisto.shop.layout.footer.after') !!}
+    @show
 
 
 @endcomponent
