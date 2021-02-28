@@ -26,5 +26,16 @@
             {{ __('shop::app.mail.customer.new.thanks') }}
         </p>
     </div>
+        <p>About Us:
+        <code>&lt;p&gt;
+        &lt;div&gt;
+        We are Big Scoop Ice Cream - Pasay City Authorized Retailer! 
+        We are happy to serve you one of the best ice cream brands in the 
+        country. Big Scoop is served in various restaurants and hotels 
+        nationwide! Order now and find happiness with every scoop!
+        &lt;/div&gt;
+        &lt;/p&gt;
+        </code> 
+        </p>
 
 @endcomponent

@@ -697,8 +697,8 @@ return [
                 'heading' => config('app.name') . ' - Email Verification',
                 'subject' => 'Verification Mail',
                 'verify' => 'Verify Your Account',
-                'summary' => 'This is the mail to verify that the email address you entered is yours.
-                Kindly click the Verify Your Account button below to verify your account.'
+                'summary' => 'Welcome to Happy Cones Store! This confirms your registration on the system but you still need to verify the registered email. This is the mail to verify that the email address you entered is yours.
+                Kindly click the Verify Your Account button below to verify your account and start placing your orders.'
             ],
 
             'subscription' => [
