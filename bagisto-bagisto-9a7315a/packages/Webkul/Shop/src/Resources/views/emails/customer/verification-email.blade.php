@@ -22,7 +22,7 @@
             </a>
         </div>
 
-        <p>About Us:
+        <!-- <p>About Us:
         <p>
         <div>
         We are Big Scoop Ice Cream - Pasay City Authorized Retailer! 
@@ -32,7 +32,7 @@
         </div>
         </p>
         </br>
-        </p>
+        </p> -->
 
 
         
