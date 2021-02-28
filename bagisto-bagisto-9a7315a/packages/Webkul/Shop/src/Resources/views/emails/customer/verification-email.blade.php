@@ -37,13 +37,30 @@
 
         
     </div>
-    @section('footer')
-            {!! view_render_event('bagisto.shop.layout.footer.before') !!}
+    <div class="footer">
+        <div class="footer-content">
 
-                @include('shop::layouts.footer.index')
+            <div class="row footer-statics col-12 no-margin">
+                <div class="col-lg-4 col-md-12 col-sm-12 software-description">                    
+                    @if ($velocityMetaData)
+                        {!! $velocityMetaData->footer_left_content !!}
+                    @else
+                        {!! __('velocity::app.admin.meta-data.footer-left-raw-content') !!}
+                    @endif
+                </div>    
+            </div>
 
-            {!! view_render_event('bagisto.shop.layout.footer.after') !!}
-    @show
+            {{-- @if ($categories)
+                @include('shop::layouts.footer.top-brands')
+            @endif --}}
+
+            @if (core()->getConfigData('general.content.footer.footer_toggle'))
+                @include('shop::layouts.footer.copy-right')
+            @endif
+        </div>
+    </div>
+
+
 
 
 @endcomponent
