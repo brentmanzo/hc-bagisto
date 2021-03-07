@@ -1,4 +1,4 @@
-## Happy Cones Online Ordering System
+## <center>Happy Cones Online Ordering System</center>
 
 [contents here]
 
