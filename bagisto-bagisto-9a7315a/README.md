@@ -1,12 +1,12 @@
-# Happy Cones Online Ordering System
+## Happy Cones Online Ordering System
 
 [contents here]
 
-<p align="center">
+
+
+## <p align="center">
 <a href="http://www.bagisto.com"><img src="https://bagisto.com/wp-content/themes/bagisto/images/logo.png" alt="Total Downloads"></a>
 </p>
-
-## Topics
 1. [Introduction](#introduction)
 2. [Documentation](#documentation)
 3. [Requirements](#requirements)
