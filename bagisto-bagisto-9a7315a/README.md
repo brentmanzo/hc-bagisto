@@ -4,7 +4,8 @@
 
 
 
-## <p align="center">
+## Project Framework
+<p align="center">
 <a href="http://www.bagisto.com"><img src="https://bagisto.com/wp-content/themes/bagisto/images/logo.png" alt="Total Downloads"></a>
 </p>
 1. [Introduction](#introduction)
