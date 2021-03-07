@@ -1,9 +1,6 @@
-<center> <h2>Happy Cones Online Ordering System</h2></center>
+## Happy Cones Online Ordering System
 
-[contents here]
-
-
-
+**Happy Cones Wholesale and Retail Reselling** in Villamor basically take their orders in a traditional way. Buyers or customers inform them about the order details and connect with them through phone then delivers the ice cream when it is needed. The goal of this project is to make transactions easier for the business with an online ordering system. Through planning, the team will develop a running website wherein the business can maintain and organize inventory and orders of their customers, as well as track each of it. This will help the business to run in sync when handling a mass amount of orders.
 
 ## Project Framework
 <p align="">
