@@ -1,4 +1,4 @@
-## <center>Happy Cones Online Ordering System</center>
+<center> <h2>Happy Cones Online Ordering System</h2></center>
 
 [contents here]
 
